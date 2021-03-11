@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="./img/loyalty.svg" class="flag" alt="flagSVG">
+
+        <svg id="circle">
+        <circle r="110" cx="50%" cy="50%" stroke="#ececec" fill="none" stroke-width="7" stroke-linecap="round" stroke-dasharray="615, 680">
+            <animate attributeName="stroke-dasharray" dur="2s" values="0; 615" fill="freeze" />
+        </circle>
+        <circle r="110" cx="50%" cy="50%" stroke="#70a84b" fill="none" stroke-width="8" stroke-linecap="round" stroke-dasharray="430, 691">
+            <animate attributeName="stroke-dasharray" dur="2s" values="0; 430" fill="freeze" />
+        </circle>
+        <circle id="success-value" r="110" cx="50%" cy="50%" stroke="#fcd329" fill="none" stroke-width="9" stroke-linecap="round" stroke-dasharray="220, 691">
+            <animate attributeName="stroke-dasharray" dur="2s" values="0; 220" fill="freeze" />
+        </circle>
+        </svg>
+
+        <div class="text-loyality">
+            <p class="firsl-line">72<span>.7</span><span>%</span></p>
+            <p class="loyalty">Лояльность</p>
+            <p class="txt">ниже среднего</p>
+            <p class="txt2"> по отрасли: FMCG <br> значений слева от медианы <br>52.0% - 83.1 %</p>
+            <div class="triangle">
+                <div id="triangle"></div>
+                3.1
+            </div>
+        </div>
+     </div>
+     <div class="container-addition">
+     <div class="addition1">
+        <div class="title">Промоутеры</div>
+        <div class="person-number">
+            <p>32.0%</p>
+            <div class="num-persons"> 
+                81 
+                <img src="./img/human_full.svg" class="person" alt="personSVG">
+            </div>
+            
+        </div>
+        <div class="block-color">
+            <div class="table"><p>+1.2%</p></div>
+            
+        </div>
+     </div>
+     <div class="addition2">
+        <div class="title">Скептики</div>
+        <div class="person-number">
+            <p>39.1%</p>
+            <div class="num-persons"> 
+                8
+                <img src="./img/human_full.svg" class="person" alt="personSVG">
+            </div>
+            
+        </div>
+        <div class="block-color">
+            <div class="table"><p>+4.8%</p></div>
+        </div>
+     </div>
+     <div class="addition3">
+        <div class="title">Критики</div>
+        <div class="person-number">
+            <p>79.8%</p>
+            <div class="num-persons"> 
+                7 
+                <img src="./img/human_full.svg" class="person" alt="personSVG">
+            </div>
+            
+        </div>
+        <div class="block-color">
+            <div class="table"><p>-9.7%</p></div>
+        </div>
+     </div>
+     </div>
+</body>
+</html>

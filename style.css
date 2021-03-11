@@ -1,0 +1,358 @@
+/* import fonts */
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('GothamPro-Medium.eot');
+	src: local('Gotham Pro Medium'), local('GothamPro-Medium'),
+		url('./font/GothamPro-Medium.eot?#iefix') format('embedded-opentype'),
+		url('./font/GothamPro-Medium.woff') format('woff'),
+		url('./font/GothamPro-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('GothamPro-Bold.eot');
+	src: local('Gotham Pro Bold'), local('GothamPro-Bold'),
+		url('./font/GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
+		url('./font/GothamPro-Bold.woff') format('woff'),
+		url('./font/GothamPro-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Pro Narrow';
+	src: url('GothamProNarrow-Bold.eot');
+	src: local('Gotham Pro Narrow Bold'), local('GothamProNarrow-Bold'),
+		url('./font/GothamProNarrow-Bold.eot?#iefix') format('embedded-opentype'),
+		url('./font/GothamProNarrow-Bold.woff') format('woff'),
+		url('./font/GothamProNarrow-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Pro Narrow';
+	src: url('GothamProNarrow-Medium.eot');
+	src: local('Gotham Pro Narrow Medium'), local('GothamProNarrow-Medium'),
+		url('./font/GothamProNarrow-Medium.eot?#iefix') format('embedded-opentype'),
+		url('./font/GothamProNarrow-Medium.woff') format('woff'),
+		url('./font/GothamProNarrow-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('GothamPro-Light.eot');
+	src: local('Gotham Pro Light'), local('GothamPro-Light'),
+		url('./font/GothamPro-Light.eot?#iefix') format('embedded-opentype'),
+		url('./font/GothamPro-Light.woff') format('woff'),
+		url('./font/GothamPro-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('./font/GothamPro-Black.eot');
+	src: local('Gotham Pro Black'), local('GothamPro-Black'),
+		url('./font/GothamPro-Black.eot?#iefix') format('embedded-opentype'),
+		url('./font/GothamPro-Black.woff') format('woff'),
+		url('./font/GothamPro-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('GothamPro.eot');
+	src: local('Gotham Pro'), local('GothamPro'),
+		url('./font/GothamPro.eot?#iefix') format('embedded-opentype'),
+		url('./font/GothamPro.woff') format('woff'),
+		url('./font/GothamPro.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* main styles */
+
+*{
+    margin: 0;
+    font-family: 'Gotham Pro';
+
+}
+
+/* mains blocks */
+
+.container {
+    text-align: center;
+    height: 300px;
+    position: relative;
+}
+
+.container-addition {
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    left: 22px;
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+}
+
+.addition1,.addition2,.addition3{
+    display: table;
+}
+
+
+.text-loyality {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    left: 50%;
+  transform: translate(-38%, -140%);
+}
+
+.text-loyality .firsl-line{
+    font-size: 49px;
+    letter-spacing: -1px;
+    font-weight: 400;
+}
+.text-loyality .firsl-line span{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.text-loyality .firsl-line span:nth-child(2){
+    font-size: 16px;
+    position: absolute;
+    top: 4px;
+    left: 98px;
+    color: #9c9b99;
+    font-weight: 400;
+}
+
+.loyalty {
+    margin-top: -3px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.txt {
+    margin-top: 5px;
+        font-family: Arial;
+    color: #fcd329;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.txt2 {
+    font-family: Arial;
+    color: #9c9b99;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+svg {
+    max-width: 150px;
+    overflow: visible
+}
+
+.flag {
+  backface-visibility: visible;
+  animation-name: flip;
+  animation-duration: 1.3s;
+  animation-fill-mode: both;
+    position: relative;
+    top: -245px;
+    left: 100px;
+    
+}
+
+#triangle {
+	background-color: #70a84b;
+	clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    margin: 0 5px 7px 0;
+	width: 18px;
+	height: 10px;
+}
+
+.triangle {
+     font-family: Arial;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: #70a84b;
+}
+
+
+#circle {
+  width: 100%;
+  height: 100%;
+  transform: rotate(290deg);
+}
+
+
+
+.title {
+    display: table-cell;
+    text-align: left;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 600;
+    margin-right: 10px ;
+}
+
+.person-number {
+    text-align: right;
+    display: table-cell;
+}
+
+.person-number p {
+    transform: scale(0.9);
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.num-persons {
+    text-align: right;
+    margin: 5px 10px 0 0 ;
+    font-family: Arial;
+    font-size: 12px;
+    color: #a5a5a5;
+    font-weight: 500;
+}
+
+.num-persons img {
+    width: 13px;
+    height: 13px;
+}
+
+.block-color {
+    position: relative;
+    display: table-cell;
+    background-color:white;
+    width: 90px;
+    height: 35px;
+    border-radius:5px;
+    box-shadow: 1px 0px 12px 2px rgba(0, 0, 0, 0.08) inset;
+}
+
+.table {
+    text-align: right;
+}
+
+.table p{
+  transform: translateY(70%);
+    color: #757575;
+    padding: 0 6px 0 0 ;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 500;
+    text-align:right;
+}
+
+.table::after {
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    background: #70a84b;
+    height: 80%;
+    width: 35%;
+    border-radius:5px 0 0 0 ;
+    animation: progressAnimationStrike 2s ease-in;
+}
+
+.table::before {
+    content: '';
+    position: absolute;
+    bottom:0;
+    left: 0;
+    background: #70a84b63;
+    height: 20%;
+    width: 30%;
+    border-radius:0 0 0 5px ;
+}
+
+.addition2 .table::after {
+    background: #fcd329;
+    animation: progressAnimationStrike 2s ease-in;
+}
+
+.addition2 .table::before {
+    background: #fcd2296b;
+    width: 25%;
+}
+
+.addition3 .table::after {
+    background: #ed5243;
+    animation: progressAnimationStrike 2s ease-in;
+}
+
+.addition3 .table::before {
+    background: #ed514362;
+    width: 40%;
+}
+
+.container-addition>div {
+  margin: 0 0 15px;
+}
+
+.text-loyality:before {
+    position: absolute;
+    z-index: 10000;
+    top:70px;
+    left:-70px;
+  display: block;
+  content: '';
+  background-image: url('./img/Монтажная область 1.svg');
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 240px;
+}
+
+/* animation */
+
+
+  @keyframes flip {
+  0% {
+  transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+  animation-timing-function: ease-out;
+  }
+  40% {
+  transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+  animation-timing-function: ease-out;
+  }
+  50% {
+  transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+  animation-timing-function: ease-in;
+  }
+  80% {
+  -webkit-transform: perspective(400px) scale3d(.95, .95, .95);
+  transform: perspective(400px) scale3d(.95, .95, .95);
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+  }
+  100% {
+  -webkit-transform: perspective(400px);
+  transform: perspective(400px);
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+  }
+  } 
+
+@keyframes progressAnimationStrike {
+     from { width: 0 }
+     to   { width: 35% }
+}

@@ -1,0 +1,28 @@
+<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22.31 178.96">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #cccccc;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #cccccc;
+      }
+
+      .cls-3 {
+        fill: #cccccc;
+      }
+    </style>
+  </defs>
+  <title>Монтажная область 1</title>
+  <path class="cls-1" d="M22.31.5H7.5S4.69.5,4.69,4.33V153.18"/>
+  <line class="cls-2" x1="14.9" y1="138.88" x2="4.69" y2="138.88"/>
+  <line class="cls-3" x1="4.51" y1="158.91" x2="4.51" y2="168.05"/>
+  <line class="cls-3" y1="163.39" x2="8.84" y2="163.39"/>
+  <path class="cls-1" d="M4.69,170.16c.32,7.32-2.08,8.87,6.51,8.3"/>
+</svg>
